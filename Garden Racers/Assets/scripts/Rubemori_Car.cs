@@ -33,8 +33,8 @@ public class Rubemori_Car : MonoBehaviour
     public float speedThreshold = 0.1f;        // Umbral para determinar si el coche está en movimiento
 
     private string currentSurface = "Normal";
-    // Start is called before the first frame update
 
+    public bool isCollectingBellota = false;
     void Start()
     {
         playerRB = gameObject.GetComponent<Rigidbody>();
@@ -62,7 +62,7 @@ public class Rubemori_Car : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speed = playerRB.velocity.magnitude;
+        speed = playerRB.velocity.magnitude *1.1f;
         CheckInput();
         ApplyMotor();
         ApplySteering();
@@ -78,7 +78,7 @@ public class Rubemori_Car : MonoBehaviour
             Debug.Log("Space pressed");
             Jump();
         }
-        if (Input.GetKey(KeyCode.LeftShift))  // Boost temporal
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) || Input.GetKey(KeyCode.Z))  // Boost temporal
         {
             playerRB.AddForce(transform.forward * boostAccelerationValue, ForceMode.Acceleration);
         }
@@ -350,7 +350,7 @@ public class Rubemori_Car : MonoBehaviour
         // Revisión de las partículas de derrape
         if ((Mathf.Abs(wheelHits[0].sidewaysSlip) + Mathf.Abs(wheelHits[0].forwardSlip) > slipAllowance))
         {
-            Debug.Log("Derrape en la rueda delantera derecha");
+            
             wheelParticles.FRWheel.Play();
         }
         else
@@ -395,6 +395,24 @@ public class Rubemori_Car : MonoBehaviour
     {
         return Physics.Raycast(transform.position, -Vector3.up, groundDistance);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("bellota") && !isCollectingBellota)
+        {
+            isCollectingBellota = true; // Marcar que se está recogiendo una bellota
+            other.GetComponent<bellota_manager>().CollectBellota(transform); // Llama al método de recolección en el manager
+        }
+    }
+    public void ResetCollectingState() // Método para resetear el estado después de un tiempo
+    {
+        StartCoroutine(ResetCollectingCoroutine());
+    }
+    private IEnumerator ResetCollectingCoroutine()
+    {
+        yield return new WaitForSeconds(5f); // Esperar 3 segundos
+        isCollectingBellota = false; // Reiniciar el estado de recolección
+    }
+
 }
 
 [System.Serializable]

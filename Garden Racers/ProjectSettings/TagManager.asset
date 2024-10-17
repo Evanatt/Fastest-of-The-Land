@@ -9,6 +9,8 @@ TagManager:
   - Dirt
   - Wood
   - Obstacle
+  - bellota
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX
