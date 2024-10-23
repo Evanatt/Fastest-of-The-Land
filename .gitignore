@@ -61,3 +61,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+Garden Racers/Library/
+
+Garden Racers/Logs/
+
+Garden Racers/obj/
+
+Garden Racers/UserSettings/
