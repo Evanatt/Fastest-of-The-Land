@@ -1,0 +1,1037 @@
+fileFormatVersion: 2
+guid: f25942856d4f11244af8f064b2640f39
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesuivarias 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 999
+        width: 1920
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a241811d0a9b2d4191171d091511eb7
+      internalID: 2124562192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 900
+        width: 117
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e3c51152abb474b964ddcc41812bb6
+      internalID: 929782030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_2
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 943
+        width: 189
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad92fc98fe3d07d4cb0482bfaf75bfac
+      internalID: 479103195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_3
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 887
+        width: 154
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61888102ab5ba514cb5870f228e723a6
+      internalID: -1067977398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_4
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 858
+        width: 187
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0955f02222bd4143853860cd94331b8
+      internalID: -322157941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_5
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 858
+        width: 191
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a7e1fe157da4a4bb35dd7065747732
+      internalID: -1095351448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_6
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 888
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c507c33df8e914db16d0e6a96df258
+      internalID: -104431119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_7
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 872
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380eae95209d82b4d8d41463139b39ba
+      internalID: 982997709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_9
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 837
+        width: 120
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa006f9e27ba634ca174ba00f294802
+      internalID: -953415434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_10
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 900
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f240cd32a906bc54ab97c4751b00c2d5
+      internalID: 1621554850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 812
+        width: 117
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a56fb6903117e41b21a15d958bc64b
+      internalID: -1166787237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_12
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 824
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c450c276fb12013429d57b2d73e7d9de
+      internalID: 1751423910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_13
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 836
+        width: 89
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eada7bbf1087974a8199922112045b1
+      internalID: -1518372418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_14
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 843
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b8377211579914ca81e3da09ad53a6
+      internalID: -115490927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_15
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 846
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24efab6a0f9a2d4c927babb0fecde7f
+      internalID: 22642985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_16
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 850
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ece6ba59912a2498e43014709cc5f8
+      internalID: -1290062312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_17
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 731
+        width: 215
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86259bd8c13b574db86296f54bdb9b4
+      internalID: -1686656981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_18
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 477
+        width: 365
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06791962781459d479f3b0489bac9e82
+      internalID: 129662085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 680
+        width: 191
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8169f25bd9898414d925cc7f9ef5a0dc
+      internalID: -1743666267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_20
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 744
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1fb04be551f5f4baf28d2336f74aef
+      internalID: 1196637771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_21
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 731
+        width: 86
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0b2b7748fdf6940850c7ef2c2436d6
+      internalID: -1552602945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 726
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d6ccaaf59ad7c488352461c8204886
+      internalID: 396751679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_23
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 545
+        width: 237
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcfd31454f2da1459817ff018377a31
+      internalID: -154323982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_24
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 635
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025b8080e2ede864cae86542be2a242c
+      internalID: -1562198471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_25
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 459
+        width: 262
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd7c9599e06ff64ca71ee3c15085c28
+      internalID: -29538983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_26
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 516
+        width: 223
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b30828a84f6b4499f8a179f23b94ab
+      internalID: 282539809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 549
+        width: 191
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f364b4cc7c10542b743db30722b35e
+      internalID: -1589944720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 554
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87b0a30a7ff01f45b975e2eb0fa74ac
+      internalID: -814375358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_30
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 619
+        width: 71
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047d107a1aea0524d8daa6a0f0b7f144
+      internalID: 1530137327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_31
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 495
+        width: 159
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6681c58dcafd2dc4ea02ed83d6ac3d9d
+      internalID: -717775671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_32
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 358
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d052efdb1a8b2a8468942c0f9bb91325
+      internalID: -608604369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_33
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 284
+        width: 474
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799f0f66665b09041a78913b42f21085
+      internalID: 890299148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_34
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 390
+        width: 463
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2ca748113abdf47bdef6fa1ef2f1cd
+      internalID: -109020360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_36
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 295
+        width: 139
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864be28080367484ab1bf676cd5abe75
+      internalID: -661010834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_37
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 287
+        width: 139
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fc9391f8e3e38448200173f2c2aee6
+      internalID: -1722431951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_38
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 318
+        width: 231
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5df19b53aa1cd746a56381289c603c6
+      internalID: 2049471299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_39
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 305
+        width: 347
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a9c995be5912d4f8427c44eb346790
+      internalID: -1134444611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_54
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 199
+        width: 1770
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a0e2f4690f7c84fb4ec4e8d66d252f
+      internalID: -945659865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_55
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 84
+        width: 1774
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69097aad3b8da7745aff5aeb83769dca
+      internalID: -955490748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesuivarias 1_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 1920
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ba32257cacf9146963f68a9ed9d16c
+      internalID: 1327454609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesuivarias 1_0: 2124562192
+      spritesuivarias 1_1: 929782030
+      spritesuivarias 1_10: 1621554850
+      spritesuivarias 1_11: -1166787237
+      spritesuivarias 1_12: 1751423910
+      spritesuivarias 1_13: -1518372418
+      spritesuivarias 1_14: -115490927
+      spritesuivarias 1_15: 22642985
+      spritesuivarias 1_16: -1290062312
+      spritesuivarias 1_17: -1686656981
+      spritesuivarias 1_18: 129662085
+      spritesuivarias 1_19: -1743666267
+      spritesuivarias 1_2: 479103195
+      spritesuivarias 1_20: 1196637771
+      spritesuivarias 1_21: -1552602945
+      spritesuivarias 1_22: 396751679
+      spritesuivarias 1_23: -154323982
+      spritesuivarias 1_24: -1562198471
+      spritesuivarias 1_25: -29538983
+      spritesuivarias 1_26: 282539809
+      spritesuivarias 1_27: -548122236
+      spritesuivarias 1_28: -1589944720
+      spritesuivarias 1_29: -814375358
+      spritesuivarias 1_3: -1067977398
+      spritesuivarias 1_30: 1530137327
+      spritesuivarias 1_31: -717775671
+      spritesuivarias 1_32: -608604369
+      spritesuivarias 1_33: 890299148
+      spritesuivarias 1_34: -109020360
+      spritesuivarias 1_35: -464605718
+      spritesuivarias 1_36: -661010834
+      spritesuivarias 1_37: -1722431951
+      spritesuivarias 1_38: 2049471299
+      spritesuivarias 1_39: -1134444611
+      spritesuivarias 1_4: -322157941
+      spritesuivarias 1_40: -1534983149
+      spritesuivarias 1_41: -564748426
+      spritesuivarias 1_42: 284071736
+      spritesuivarias 1_43: 1676104949
+      spritesuivarias 1_44: 1830171305
+      spritesuivarias 1_45: 215240048
+      spritesuivarias 1_46: -607093910
+      spritesuivarias 1_47: -636077354
+      spritesuivarias 1_48: 932933692
+      spritesuivarias 1_49: -547168074
+      spritesuivarias 1_5: -1095351448
+      spritesuivarias 1_50: -223944838
+      spritesuivarias 1_51: -1917907449
+      spritesuivarias 1_52: 1403660810
+      spritesuivarias 1_53: -1776651226
+      spritesuivarias 1_54: -945659865
+      spritesuivarias 1_55: -955490748
+      spritesuivarias 1_56: 1327454609
+      spritesuivarias 1_6: -104431119
+      spritesuivarias 1_7: 982997709
+      spritesuivarias 1_8: 2066279487
+      spritesuivarias 1_9: -953415434
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
