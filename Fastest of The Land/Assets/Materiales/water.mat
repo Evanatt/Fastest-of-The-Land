@@ -109,7 +109,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FoamDistance: 0.062
+    - _FoamDistance: 0.149
     - _FoamHardness: 1
     - _FoamOpacity: 1
     - _FoamScale: 0.424
@@ -128,11 +128,11 @@ Material:
     - _ReceiveShadows: 1
     - _ReflectionsCutoff: 0.35
     - _ReflectionsCutoffScale: 3
-    - _ReflectionsCutoffScrollSpeed: -0.025
+    - _ReflectionsCutoffScrollSpeed: 0.52
     - _ReflectionsOpacity: 1
-    - _ReflectionsScale: 5
+    - _ReflectionsScale: 20.2
     - _ReflectionsScrollSpeed: 0.05
-    - _ShallowColorDepth: 9.91
+    - _ShallowColorDepth: 15
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
