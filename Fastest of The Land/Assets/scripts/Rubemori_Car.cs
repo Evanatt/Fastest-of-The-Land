@@ -35,6 +35,7 @@ public class Rubemori_Car : MonoBehaviour
     private string currentSurface = "Normal";
 
     public bool isCollectingBellota = false;
+    public float speedEma = 1.9f;
     void Start()
     {
         playerRB = gameObject.GetComponent<Rigidbody>();
@@ -62,7 +63,8 @@ public class Rubemori_Car : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speed = playerRB.velocity.magnitude *1.1f;
+        speed = playerRB.velocity.magnitude * 1.19f;
+        playerRB.AddForce(transform.forward * speedEma, ForceMode.Acceleration);
         CheckInput();
         ApplyMotor();
         ApplySteering();
