@@ -638,7 +638,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CARGANDO ...
+  m_text: loading ...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ddd178997aa0edb42bdcd8d141ada9ba, type: 2}
   m_sharedMaterial: {fileID: 2454475218438165713, guid: ddd178997aa0edb42bdcd8d141ada9ba,
@@ -672,7 +672,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1196,7 +1196,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b9dcd5e0c48ec7042ba9962bc0bee699, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52b375238310ca84792d75f4e8eac9fe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
