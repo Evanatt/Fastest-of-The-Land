@@ -3,7 +3,17 @@ guid: 76eb68a1e73c8d54b9b048ced9963d98
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Auto_Luciernaga_Material
+    second: {fileID: 2100000, guid: e48b6d8a4cf0ea14cbf2cc1532cf197d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VIDRIO_AUTO_LUZ_MATERIAL
+    second: {fileID: 2100000, guid: b6232c4711ef3eb438bccce32860cdaa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
