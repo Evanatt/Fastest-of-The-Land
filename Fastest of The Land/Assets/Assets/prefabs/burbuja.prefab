@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 395405225261578812}
   - component: {fileID: 5222209358049922323}
   - component: {fileID: 4774176954534578059}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: nuez
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2198260264233437652}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BellotaPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 8482027645979467890}
   - component: {fileID: 5181434196996000265}
   - component: {fileID: 7442645653996474337}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cascara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 6617922541207579491}
   - component: {fileID: 3932646456917032385}
   - component: {fileID: 3794263717546191419}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: burbuja
   m_TagString: bellota
   m_Icon: {fileID: 0}

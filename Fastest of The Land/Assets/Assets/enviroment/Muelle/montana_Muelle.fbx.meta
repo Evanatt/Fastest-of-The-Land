@@ -3,7 +3,12 @@ guid: befdf2376d62139488798fc309ddd87d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Montana_Material_Muelle
+    second: {fileID: 2100000, guid: 0f56aefb3a8c36e46aab65144e0c4f1e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

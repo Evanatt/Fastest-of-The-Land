@@ -373,7 +373,7 @@ public class Rubemori_Car : MonoBehaviour
         }
         else
         {
-            wheelParticles.RRWheel.Stop();
+            wheelParticles.RRWheel.Play();
         }
     }
 

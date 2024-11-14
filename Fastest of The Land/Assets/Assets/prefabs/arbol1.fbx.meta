@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Brown Bark
-    second: {fileID: 2100000, guid: c4cefc2f01054b4419fd579d2d852d94, type: 2}
+    second: {fileID: 2100000, guid: cc8b2339925b1cc44be52de65852e66e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: cloud
-    second: {fileID: 2100000, guid: dfae1024cbbac794b8f83c948a1b4498, type: 2}
+    second: {fileID: 2100000, guid: c4940eb2a5b773b48ad60dc62d946cfd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
