@@ -49,29 +49,29 @@ This game was also possible thanks to the support of:
 
 **Professors:**
 
--Sergio Baretto
--Ramiro Cabrera
--Eugenio Taboada
--Nazareno Rivero
--Lucía Patetta
+- Sergio Baretto
+- Ramiro Cabrera
+- Eugenio Taboada
+- Nazareno Rivero
+- Lucía Patetta
 
 **Teaching assistants:**
 
--Rocío Giménez
--Lautaro Lajmanovich
--Manuel Sanchez
--Lucio Ary Clementino
--Florencia Gordano
+- Rocío Giménez
+- Lautaro Lajmanovich
+- Manuel Sanchez
+- Lucio Ary Clementino
+- Florencia Gordano
 
 **and all Image Campus Staff!**
 
 ## Acknowledgements
 
--Hernan Fernandez
--Mariano Mallea
--Hanah Yoo
--Maria de los Angeles
--Francisco Agustin Lingeri
+- Hernan Fernandez
+- Mariano Mallea
+- Hanah Yoo
+- Maria de los Angeles
+- Francisco Agustin Lingeri
 
 ## Links
 
