@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public class bellota_manager : MonoBehaviour
 {
     public float rotationSpeed = 100f;
@@ -10,19 +11,26 @@ public class bellota_manager : MonoBehaviour
     private Animator animator;
     private static readonly int consumoHash = Animator.StringToHash("consumo");
     private static readonly int brokeHash = Animator.StringToHash("broke");
+    private AudioSource bellotaAudioSource;
+    public AudioClip bellotaClip; // Sonido de recolección
+    public AudioClip bellotapop_end_clip; // Sonido de explosión
 
+
+    public delegate void BellotaCollected();
+    public static event BellotaCollected OnBellotaCollected;
+
+    private bool hasRecoleccionSoundPlayed = false; // Control de sonido de recolección
 
     void Start()
     {
+        bellotaAudioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        // Rotación continua de la bellota
         transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
 
-        // Si fue recogida, seguir la posición en el auto
         if (isCollected && bellotaPoint != null)
         {
             transform.position = bellotaPoint.position;
@@ -33,37 +41,25 @@ public class bellota_manager : MonoBehaviour
     {
         if (other.CompareTag("Player") && !isCollected)
         {
-            Debug.Log("Burbuja colisionada con el Player");
             CollectBellota(other.transform);
+            StartCoroutine(InvokeBellotaCollectedEvent()); // Llamar al evento con retraso
         }
     }
 
     public void CollectBellota(Transform playerTransform)
     {
-        if (isCollected) return; // Evitar múltiples recolecciones
+        if (isCollected) return;
 
         bellotaPoint = FindBellotaPoint(playerTransform);
-        if (bellotaPoint == null)
-        {
-            Debug.LogError("No se encontró BellotaPoint.");
-            return;
-        }
+        if (bellotaPoint == null) return;
 
         isCollected = true;
         transform.SetParent(bellotaPoint);
         transform.localPosition = Vector3.zero;
 
-        // Instanciar el efecto visual
         if (vfxPrefab != null)
         {
             Instantiate(vfxPrefab, transform.position, Quaternion.identity);
-            Debug.Log("VFX instanciado en: " + transform.position);
-        }
-
-        // Reiniciar el estado de recolección del auto
-        if (playerTransform.TryGetComponent(out Rubemori_Car car))
-        {
-            car.ResetCollectingState();
         }
 
         StartCoroutine(PlayDestructionAnimation());
@@ -73,13 +69,32 @@ public class bellota_manager : MonoBehaviour
     {
         animator.SetBool(consumoHash, true);
         animator.SetTrigger(brokeHash);
-        Debug.Log("Animación de destrucción activada.");
-
-        // Esperar a que la animación termine
-        var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        yield return new WaitForSeconds(stateInfo.length);
-
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         Destroy(gameObject);
+    }
+
+    // Nueva corrutina para retrasar la invocación del evento
+    private IEnumerator InvokeBellotaCollectedEvent()
+    {
+        yield return new WaitForSeconds(0.2f); // Esperar 0.2 segundos para evitar solapamiento de sonidos
+        OnBellotaCollected?.Invoke();
+    }
+
+    // Este método será llamado desde el evento de la animación al principio
+    public void sonidoRecoleccion()
+    {
+        if (!hasRecoleccionSoundPlayed) // Solo se reproduce si no se ha reproducido antes
+        {
+            bellotaAudioSource.PlayOneShot(bellotaClip); // Reproduce el sonido de recolección
+            hasRecoleccionSoundPlayed = true; // Marcar como reproducido
+        }
+    }
+
+    // Este método será llamado desde el evento de la animación cuando explote
+    public void sonidoexplotaburbuja()
+    {
+        bellotaAudioSource.PlayOneShot(bellotapop_end_clip); // Reproduce el sonido de explosión
+        hasRecoleccionSoundPlayed = false; // Restablecer el estado cuando la bellota explota
     }
 
     private Transform FindBellotaPoint(Transform root)

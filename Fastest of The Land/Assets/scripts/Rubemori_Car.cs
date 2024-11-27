@@ -63,8 +63,7 @@ public class Rubemori_Car : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speed = playerRB.velocity.magnitude * 1.19f;
-        playerRB.AddForce(transform.forward * speedEma, ForceMode.Acceleration);
+        speed = playerRB.velocity.magnitude * 5.919f;
         CheckInput();
         ApplyMotor();
         ApplySteering();
@@ -84,6 +83,12 @@ public class Rubemori_Car : MonoBehaviour
         {
             playerRB.AddForce(transform.forward * boostAccelerationValue, ForceMode.Acceleration);
         }
+        aceleracion2();
+    }
+    public void aceleracion2()
+    {
+        speed = speed + playerRB.velocity.magnitude *speedEma;
+        playerRB.AddForce(transform.forward * speedEma, ForceMode.Acceleration);
     }
     void DetectSurface()
     {
@@ -127,6 +132,7 @@ public class Rubemori_Car : MonoBehaviour
         if (movingDirection < -0.5f && gasInput > 0)
         {
             brakeInput = Mathf.Abs(gasInput);
+            
         }
         else if (movingDirection > 0.5f && gasInput < 0)
         {
@@ -208,25 +214,58 @@ public class Rubemori_Car : MonoBehaviour
 
     void ApplyMotor()
     {
-        float speed = playerRB.velocity.magnitude;
-        float accelerationFactor = accelerationCurve.Evaluate(speed / maxSpeed);
+        float currentSpeed = playerRB.velocity.magnitude;
+        Vector3 vehicleVelocity = playerRB.velocity;
+        float movingDirection = Vector3.Dot(transform.forward, vehicleVelocity);
+
+        // Calcular el factor de aceleración basado en la velocidad máxima
+        float accelerationFactor = accelerationCurve.Evaluate(currentSpeed / maxSpeed);
+
+        // Calcular el torque del motor
         float motorTorque = motorPower * gasInput * accelerationFactor;
 
-        if (gasInput > 0)
+        // Lógica de dirección más precisa
+        if (gasInput > 0) // Avanzando hacia adelante
         {
-            colliders.RRWheel.motorTorque = motorTorque * 1.5f;
+            // Si se está moviendo hacia atrás, aplicar un freno fuerte primero
+            if (movingDirection < -0.1f)
+            {
+                // Aplicar freno fuerte para cambiar dirección
+                colliders.RRWheel.brakeTorque = brakePower * 2f;
+                colliders.FRWheel.brakeTorque = brakePower * 2f;
+                colliders.FLWheel.brakeTorque = brakePower * 2f;
+            }
+            else
+            {
+                // Movimiento normal hacia adelante
+                colliders.RRWheel.motorTorque = motorTorque * 1.5f;
+                colliders.RRWheel.brakeTorque = 0;
+            }
         }
-        else if (gasInput < 0 && speed > 1f)
+        else if (gasInput < 0) // Retrocediendo
         {
-            colliders.RRWheel.brakeTorque = brakePower * brakeSmoothness;
+            // Si se está moviendo hacia adelante, aplicar un freno fuerte primero
+            if (movingDirection > 0.1f)
+            {
+                // Aplicar freno fuerte para cambiar dirección
+                colliders.RRWheel.brakeTorque = brakePower * 2f;
+                colliders.FRWheel.brakeTorque = brakePower * 2f;
+                colliders.FLWheel.brakeTorque = brakePower * 2f;
+            }
+            else
+            {
+                // Movimiento normal hacia atrás
+                colliders.RRWheel.motorTorque = -motorTorque * 1.5f;
+                colliders.RRWheel.brakeTorque = 0;
+            }
         }
-        else
+        else // Sin input de movimiento
         {
             colliders.RRWheel.motorTorque = 0;
-            colliders.RRWheel.brakeTorque = brakePower * 1.5f; // Aumenta el brakePower para frenar más efectivamente
+            colliders.RRWheel.brakeTorque = brakePower * 1.5f;
         }
 
-        // Aplica menos torque a las ruedas delanteras para evitar perder control
+        // Ruedas delanteras con menos torque
         colliders.FRWheel.motorTorque = motorTorque * 0.7f;
         colliders.FLWheel.motorTorque = motorTorque * 0.7f;
         if (Vector3.Angle(Vector3.up, transform.up) > 15f)  // Detecta si el auto está en una colina

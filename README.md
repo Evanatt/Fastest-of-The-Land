@@ -1,32 +1,74 @@
-# Fastest of The Land 🏎️🌾
+<p align="center">
+<img src="logo.png" alt="Fastest of The Land"/>
+</p>
 
-Fastest of The Land es un juego de carreras ambientado en un mundo fantástico lleno de zonas, pueblos pintorescos, y personajes únicos inspirados en elementos naturales. Con una estética colorida en tonos vibrantes y un estilo visual hand-painted.
+#Fastest of The Land 🏎️🌾
 
-#🎮 Descripción del juego
-Género: Juego de carreras arcade.
+Fastest of The Land is a racing game set in a fantastic world full of areas, picturesque villages, and unique characters inspired by natural elements. Featuring a colorful aesthetic in vibrant hues and a hand-painted visual style.
 
-Ambientación: mundos mágicos y pueblos rurales de fantasía
+#🎮 Game description
 
-Jugabilidad: Corre a través de distintos biomas y zonas misteriosas, recolecta objetos (como bellotas animadas) y supera obstáculos.
+Genre: Arcade racing game.
 
-Inspiración: Combina ideas de Mario Kart y Sugar Rush con un toque de fantasía floral y elementos visuales vibrantes.
+Setting: magical worlds and rural fantasy villages.
 
-#🚀 Características destacadas
-Personajes únicos: Cada corredor tiene habilidades y vehículos inspirados en elementos naturales (cactus, hongos, etc.).
-Core loop: Carreras repetibles con misiones diarias y desafíos que ofrecen recompensas.
-Mundos vivos: Cada zona tiene su identidad visual.
+Gameplay: Race through different biomes and mysterious areas, collect items (such as animated acorns) and overcome obstacles.
+
+Inspiration: Combines ideas from Mario Kart and Sugar Rush with a touch of floral fantasy and vibrant visual elements.
+
+#🚀 Featured Features.
+Unique characters: Each racer has abilities and vehicles inspired by natural elements (cactus, mushrooms, etc.).
+Core loop: Repeatable races with daily missions and challenges that offer rewards.
+
+This is a game being developed by students from <a href="https://www.imagecampus.edu.ar/">Image Campus</a>
+
+<p align="center">
+  <a href="https://www.imagecampus.edu.ar/">
+    <img src="logo-image-campus.png" alt="Image Campus"/>
+  </a> 
+</p>
 
 
-#🛠️ Instrucciones para clonar y ejecutar el proyecto
+##Credits
 
-Clona el repositorio:
-git clone https://github.com/Evanatt/Fastest-of-The-Land.git
-cd Fastest-of-The-Land
+- **Emanuel Apaza Ruiz** - *Technical Art*
+- **Emanuel Apaza Ruiz** - *Art*
+- **Lucía Martorell García** - *Art*
+- **Marina Abril Lopez** - *Art*
+- **Cristóbal Cadierno** - *Audio*
+- **Marc González** - *Audio*
+- **Athenea Machiavelo de Villers** - *Audio*
+- **Julián Tinao** - *Audio*
+- **Nahuel Brizuela Barbosa** - *QA*
+- **Matías Gomez** - *QA*
+- **Damian Palla** - *QA*
+- **Matías Rosato** - *QA*
+- **Federico Rattay** - *QA*
 
-Abre el proyecto en Unity
+This game was also possible thanks to the support of:
+**Professors:**
+-Sergio Baretto
+-Ramiro Cabrera
+-Eugenio Taboada
+-Nazareno Rivero
+-Lucía Patetta
 
-Requiere Unity 2022.3.20f1, por favor asegúrense de estar en la misma versión.
-Plataforma objetivo: Estamos orientando el juego a PC (Windows).
-Render Pipeline: El proyecto está configurado con Universal Render Pipeline (URP).
-Requiere que pasen sus nombres de usarios de Github para añadirlos como colaboladores.
+**Teaching assistants:**
+-Rocío Giménez
+-Lautaro Lajmanovich
+-Manuel Sanchez
+-Lucio Ary Clementino
+-Florencia Gordano
+
+**and all Image Campus Staff!**
+
+## Acknowledgements
+-Hernan Fernandez
+-Mariano Mallea
+-Hanah Yoo
+-Maria de los Angeles
+-Francisco Agustin Lingeri
+
+##Links
+Download it from itch.io: https://luciamartorell.itch.io/fastest-of-the-land
 

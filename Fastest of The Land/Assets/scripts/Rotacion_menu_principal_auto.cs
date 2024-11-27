@@ -10,25 +10,57 @@ public class Rotacion_menu_principal_auto : MonoBehaviour
     private float currentSpeed = 0f;   // Velocidad actual de rotación
     private Vector3 lastMousePosition; // Última posición del mouse
 
-    // Update is called once per frame
+    public AudioClip startRotationSound; // Sonido de arrastre
+    public AudioClip endRotationSound;   // Sonido al terminar de desacelerar
+    private AudioSource audioSource;
+    private bool isPlayingDragSound = false; // Controla si el sonido de arrastre se está reproduciendo
+    private bool hasPlayedEndSound = false;  // Controla si el sonido de fin ya se reprodujo
+
+    public GameObject creditsCanvas; // Referencia al canvas de los créditos
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
-        // Detectar si el botón izquierdo está presionado
+        // Si el canvas de créditos está activo, no permitir interacción
+        if (creditsCanvas.activeSelf)
+        {
+            isDragging = false;
+            currentSpeed = 0f; // Detener cualquier movimiento residual
+            audioSource.Stop(); // Detener sonidos si están activos
+            return;
+        }
+
+        // Detectar si el botón izquierdo está presionado y está sobre el collider
         if (Input.GetMouseButtonDown(0) && IsMouseOverTarget())
         {
             isDragging = true;
             lastMousePosition = Input.mousePosition;
+            hasPlayedEndSound = false; // Reiniciar el estado del sonido de fin
         }
         else if (Input.GetMouseButtonUp(0))
         {
             isDragging = false;
+            isPlayingDragSound = false; // Detener el sonido de arrastre
+            audioSource.Stop();
         }
 
-        // Si se está arrastrando, rota la plataforma
+        // Si se está arrastrando y hay movimiento, reproducir sonido de arrastre
         if (isDragging)
         {
             Vector3 mouseDelta = Input.mousePosition - lastMousePosition;
             float rotationAmount = -mouseDelta.x * rotationSpeed * Time.deltaTime;
+
+            // Solo reproducir sonido si hay movimiento
+            if (Mathf.Abs(rotationAmount) > 0.01f && !isPlayingDragSound)
+            {
+                audioSource.PlayOneShot(startRotationSound);
+                isPlayingDragSound = true;
+            }
+
             transform.Rotate(Vector3.up, rotationAmount);
             currentSpeed = rotationAmount; // Actualiza la velocidad actual de rotación
             lastMousePosition = Input.mousePosition;
@@ -38,70 +70,25 @@ public class Rotacion_menu_principal_auto : MonoBehaviour
             // Aplicar inercia cuando se suelta el botón
             transform.Rotate(Vector3.up, currentSpeed);
             currentSpeed *= deceleration; // Desaceleración gradual de la rotación
+
+            // Reproducir sonido de fin una sola vez cuando la velocidad es casi cero
+            if (Mathf.Abs(currentSpeed) < 0.01f && !hasPlayedEndSound)
+            {
+                audioSource.PlayOneShot(endRotationSound);
+                hasPlayedEndSound = true;
+            }
         }
     }
 
     // Verifica si el mouse está sobre el área del auto y el personaje
     bool IsMouseOverTarget()
     {
-        // Raycast desde la posición del mouse
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit))
         {
-            // Verifica si el objeto que toca el raycast está en el layer específico (ej. "auto")
             return hit.collider.gameObject.layer == LayerMask.NameToLayer("auto");
         }
         return false;
     }
-    /*private LayerMask targetLayer;
-    public float Speed = 11f;
-    private bool IsRotating = false;
-    private float starmousePosition;
-    private bool touchAnywhere;
-    private Camera m_camera;
-    void Start()
-    {
-        IsRotating = false;
-        m_camera = Camera.main;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (!touchAnywhere)
-        {
-            if (!IsRotating)
-            {
-                RaycastHit hit;
-                Ray ray = m_camera.ScreenPointToRay(Input.mousePosition);
-                if (!Physics.Raycast(ray, out hit, 500, targetLayer))
-                {
-                    return;
-                }
-            }
-        }
-            if (Input.GetMouseButtonDown(0))
-            {
-                IsRotating = true;
-                starmousePosition = Input.mousePosition.x;
-
-
-            }
-            else if (Input.GetMouseButtonDown(0))
-            {
-                IsRotating = false;
-            }
-            if (IsRotating)
-            {
-                float currentmouseposition = Input.mousePosition.x;
-                float mousemovement = currentmouseposition - starmousePosition;
-                transform.Rotate(Vector3.up, -mousemovement * Speed * Time.deltaTime);
-                starmousePosition = currentmouseposition;
-            }
-        if (Input.GetMouseButtonUp(0))
-            IsRotating = false;
-    }
-    */
 }
-
