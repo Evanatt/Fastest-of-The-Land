@@ -2,11 +2,11 @@
 <img src="logo.png" alt="Fastest of The Land"/>
 </p>
 
-#Fastest of The Land 🏎️🌾
+# Fastest of The Land 🏎️🌾
 
 Fastest of The Land is a racing game set in a fantastic world full of areas, picturesque villages, and unique characters inspired by natural elements. Featuring a colorful aesthetic in vibrant hues and a hand-painted visual style.
 
-#🎮 Game description
+# 🎮 Game description
 
 Genre: Arcade racing game.
 
@@ -16,7 +16,7 @@ Gameplay: Race through different biomes and mysterious areas, collect items (suc
 
 Inspiration: Combines ideas from Mario Kart and Sugar Rush with a touch of floral fantasy and vibrant visual elements.
 
-#🚀 Featured Features.
+# 🚀 Featured Features.
 Unique characters: Each racer has abilities and vehicles inspired by natural elements (cactus, mushrooms, etc.).
 Core loop: Repeatable races with daily missions and challenges that offer rewards.
 
@@ -29,7 +29,7 @@ This is a game being developed by students from <a href="https://www.imagecampus
 </p>
 
 
-##Credits
+## Credits
 
 - **Emanuel Apaza Ruiz** - *Technical Art*
 - **Emanuel Apaza Ruiz** - *Art*
@@ -46,7 +46,9 @@ This is a game being developed by students from <a href="https://www.imagecampus
 - **Federico Rattay** - *QA*
 
 This game was also possible thanks to the support of:
+
 **Professors:**
+
 -Sergio Baretto
 -Ramiro Cabrera
 -Eugenio Taboada
@@ -54,6 +56,7 @@ This game was also possible thanks to the support of:
 -Lucía Patetta
 
 **Teaching assistants:**
+
 -Rocío Giménez
 -Lautaro Lajmanovich
 -Manuel Sanchez
@@ -63,12 +66,14 @@ This game was also possible thanks to the support of:
 **and all Image Campus Staff!**
 
 ## Acknowledgements
+
 -Hernan Fernandez
 -Mariano Mallea
 -Hanah Yoo
 -Maria de los Angeles
 -Francisco Agustin Lingeri
 
-##Links
+## Links
+
 Download it from itch.io: https://luciamartorell.itch.io/fastest-of-the-land
 
