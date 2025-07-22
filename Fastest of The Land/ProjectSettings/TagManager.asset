@@ -11,6 +11,9 @@ TagManager:
   - Obstacle
   - bellota
   - SpawnPoint
+  - Coin
+  - Checkpoint
+  - FinishLine
   layers:
   - Default
   - TransparentFX
