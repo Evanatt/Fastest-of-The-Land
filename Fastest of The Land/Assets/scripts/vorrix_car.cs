@@ -18,6 +18,13 @@ public class vorrix_car : MonoBehaviour
     private float speed;
     public AnimationCurve steeringCurve;
 
+    public float jumpForce = 5f;  // Controla la altura del salto
+    public bool isGrounded;
+    public float groundDistance = 0.5f;
+
+    public float boostAccelerationValue = 1000f;
+    public float speedEma = 1.9f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +54,21 @@ public class vorrix_car : MonoBehaviour
         ApplyBrake();
         CheckParticles();
         ApplyWheelPositions();
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            Debug.Log("Space pressed");
+            Jump();
+        }
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) || Input.GetKey(KeyCode.Z))  // Boost temporal
+        {
+            playerRB.AddForce(transform.forward * boostAccelerationValue, ForceMode.Acceleration);
+        }
+        aceleracion2();
+    }
+    public void aceleracion2()
+    {
+        speed = speed + playerRB.velocity.magnitude * speedEma;
+        playerRB.AddForce(transform.forward * speedEma, ForceMode.Acceleration);
     }
 
     void CheckInput()
@@ -160,32 +182,43 @@ public class vorrix_car : MonoBehaviour
         wheelMesh.transform.position = position;
         wheelMesh.transform.rotation = quat;
     }
-}
 
-[System.Serializable]
-public class WheelColliders
-{
-    public WheelCollider FRWheel;
-    public WheelCollider FLWheel;
-    public WheelCollider RRWheel;
-    public WheelCollider RLWheel;
+    void Jump()
+    {
+        if (IsGrounded())
+        { // Asegúrate de que el auto esté tocando el suelo
+            playerRB.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            Debug.Log("Jumping");
+        }
+    }
+    bool IsGrounded()
+    {
+        return Physics.Raycast(transform.position, -Vector3.up, groundDistance);
+    }
 }
+    [System.Serializable]
+    public class WheelColliders
+    {
+        public WheelCollider FRWheel;
+        public WheelCollider FLWheel;
+        public WheelCollider RRWheel;
+        public WheelCollider RLWheel;
+    }
 
-[System.Serializable]
-public class WheelMeshes
-{
-    public MeshRenderer FRWheel;
-    public MeshRenderer FLWheel;
-    public MeshRenderer RRWheel;
-    public MeshRenderer RLWheel;
-}
+    [System.Serializable]
+    public class WheelMeshes
+    {
+        public MeshRenderer FRWheel;
+        public MeshRenderer FLWheel;
+        public MeshRenderer RRWheel;
+        public MeshRenderer RLWheel;
+    }
 
-[System.Serializable]
-public class WheelParticles
-{
-    public ParticleSystem FRWheel;
-    public ParticleSystem FLWheel;
-    public ParticleSystem RRWheel;
-    public ParticleSystem RLWheel;
-}
-
+    [System.Serializable]
+    public class WheelParticles
+    {
+        public ParticleSystem FRWheel;
+        public ParticleSystem FLWheel;
+        public ParticleSystem RRWheel;
+        public ParticleSystem RLWheel;
+    }

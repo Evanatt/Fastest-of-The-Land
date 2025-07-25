@@ -12,6 +12,8 @@ public class botones_main : MonoBehaviour
     public AudioSource botonossound;
     public AudioClip botonossound_Play_Clip;
 
+    public GameObject SeleccionLandersCanvas;
+
     private void Start()
     {
         animcanvas = GetComponent<Animator>();
@@ -19,6 +21,11 @@ public class botones_main : MonoBehaviour
     public void jugar()
     {
         StartCoroutine(PlaySoundAndLoadScene());
+    }
+    public void selecciondepersonajes()
+    {
+        SeleccionLandersCanvas.SetActive(true);
+        GetComponent<AudioSource>().Play();
     }
     public void OnMouseDown()
     {
