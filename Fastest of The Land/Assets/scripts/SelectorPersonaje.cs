@@ -14,6 +14,7 @@ public class SelectorPersonaje : MonoBehaviour
     public AudioClip Luz_Sound;
     void Start()
     {
+        personajeSeleccionado = PlayerPrefs.GetInt("PersonajeSeleccionado", 0);
         ActivarSoloSeleccionado();
     }
 

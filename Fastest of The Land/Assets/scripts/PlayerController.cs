@@ -40,6 +40,10 @@ public class PlayerController : MonoBehaviour
             currentCheckpointIndex = 0; // Reinicia los checkpoints
             Debug.Log($"Vuelta {lapCount} completada.");
 
+            PlayerVoiceHandler voice = GetComponent<PlayerVoiceHandler>();
+            if (voice != null)
+                voice.PlayLapLine();
+
             // Notifica al RaceManager
             RaceManager.Instance.UpdateLap(this);
         }

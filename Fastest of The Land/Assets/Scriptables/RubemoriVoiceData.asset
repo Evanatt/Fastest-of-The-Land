@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac160f03a3e7a2c4daa59685cb84e557, type: 3}
+  m_Name: RubemoriVoiceData
+  m_EditorClassIdentifier: 
+  coinClips:
+  - {fileID: 8300000, guid: f07ac6f63297e4a40b7be93b9f302721, type: 3}
+  - {fileID: 8300000, guid: 1ee9add0aa4602649918184ebe6bf74d, type: 3}
+  - {fileID: 8300000, guid: dd6b5ca008bf8db4db06d9329684384d, type: 3}
+  - {fileID: 8300000, guid: 9fca5a3031058e54ab913fe503eefeca, type: 3}
+  acornClips:
+  - {fileID: 8300000, guid: 7f3634d4f2bd1af4aab6acee9ecde568, type: 3}
+  - {fileID: 8300000, guid: defd9726817aea642a221d482760a20c, type: 3}
+  - {fileID: 8300000, guid: 67ed1e551658e714c8ad8fd8c6aed840, type: 3}
+  - {fileID: 8300000, guid: 9fca5a3031058e54ab913fe503eefeca, type: 3}
+  lapClips:
+  - {fileID: 8300000, guid: a997a88744210554db8fe8a8fccd5a5b, type: 3}
+  - {fileID: 8300000, guid: 9fca5a3031058e54ab913fe503eefeca, type: 3}
+  - {fileID: 8300000, guid: 5d0df226dbd710c47a272d17c71158e6, type: 3}

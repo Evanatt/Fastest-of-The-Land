@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac160f03a3e7a2c4daa59685cb84e557, type: 3}
+  m_Name: Vorrix_VoiceData
+  m_EditorClassIdentifier: 
+  coinClips:
+  - {fileID: 8300000, guid: d3fc35bff2757754bb38ced60ad4a3b1, type: 3}
+  - {fileID: 8300000, guid: b3dcca0873aa55e459d86f68278053b8, type: 3}
+  - {fileID: 8300000, guid: bfda6ee2d1878e04da691d8cb386aa4b, type: 3}
+  - {fileID: 8300000, guid: 3085bf04b9980894f8fbf4c651871c80, type: 3}
+  acornClips:
+  - {fileID: 8300000, guid: e75b43270a2c680428e2a801c734c38e, type: 3}
+  - {fileID: 8300000, guid: 98ec39d0d5188484f9b9dbea6dabe567, type: 3}
+  - {fileID: 8300000, guid: 13ccae1c873b6d54cad0d1972f52af3b, type: 3}
+  - {fileID: 8300000, guid: 83c7ab73a98eb7640af2ee80a166b157, type: 3}
+  lapClips:
+  - {fileID: 8300000, guid: b486c6876e5d7264693df5f9ae981759, type: 3}
+  - {fileID: 8300000, guid: 71e871af5224a92499fb9b245070b6ca, type: 3}
+  - {fileID: 8300000, guid: 9f6d72a1f612e3042b331abf5715b40b, type: 3}

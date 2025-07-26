@@ -43,6 +43,9 @@ public class bellota_manager : MonoBehaviour
         {
             CollectBellota(other.transform);
             StartCoroutine(InvokeBellotaCollectedEvent()); // Llamar al evento con retraso
+            PlayerVoiceHandler voice = other.GetComponent<PlayerVoiceHandler>();
+            if (voice != null)
+                voice.PlayAcornLine();
         }
     }
 

@@ -39,6 +39,10 @@ public class Coin : MonoBehaviour
             // Activar animación y sonido
             if (animator != null) animator.SetTrigger("CollectTrigger");
             if (audioSource != null) audioSource.Play();
+
+            PlayerVoiceHandler voice = other.GetComponent<PlayerVoiceHandler>();
+            if (voice != null)
+                voice.PlayCoinLine();
         }
 }
     public void DestroySelf()
