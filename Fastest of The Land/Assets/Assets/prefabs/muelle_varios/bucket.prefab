@@ -68,6 +68,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bucket
       objectReference: {fileID: 0}
+    - target: {fileID: 3446016770171677939, guid: 2a592cc3063608343936e3bff3250258,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

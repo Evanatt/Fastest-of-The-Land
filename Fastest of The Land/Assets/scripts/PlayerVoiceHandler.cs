@@ -3,8 +3,16 @@ using UnityEngine;
 
 public class PlayerVoiceHandler : MonoBehaviour
 {
+    [Header("AudioSources separados")]
+    public AudioSource voiceSource;   // Para diálogos del personaje
+    public AudioSource lapAudioSource;     // Para sonidos de vuelta
+
+    [Header("Clips de vuelta")]
+    public AudioClip lap1Sound;        // Sonido normal vuelta 1 y 2
+    public AudioClip finalLapSound;    // Sonido final de carrera
+
+
     public VoiceData voiceData;
-    public AudioSource voiceSource;
     public float minIntervalBetweenVoices = 2.5f;
     private float lastVoiceTime;
 
@@ -23,6 +31,16 @@ public class PlayerVoiceHandler : MonoBehaviour
     public void PlayLapLine()
     {
         TryPlayRandomClip(voiceData.lapClips);
+        int currentLap = PlayerController.Instance.lapCount;
+
+        if (currentLap < RaceManager.Instance.totalLaps)
+        {
+            lapAudioSource.PlayOneShot(lap1Sound);
+        }
+        else if (currentLap == RaceManager.Instance.totalLaps)
+        {
+            lapAudioSource.PlayOneShot(finalLapSound);
+        }
     }
 
     private void TryPlayRandomClip(AudioClip[] clips)
