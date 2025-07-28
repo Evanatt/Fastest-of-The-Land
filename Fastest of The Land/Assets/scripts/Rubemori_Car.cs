@@ -34,7 +34,6 @@ public class Rubemori_Car : MonoBehaviour
 
     private string currentSurface = "Normal";
 
-    public bool isCollectingBellota = false;
     public float speedEma = 1.9f;
     void Start()
     {
@@ -436,24 +435,7 @@ public class Rubemori_Car : MonoBehaviour
     {
         return Physics.Raycast(transform.position, -Vector3.up, groundDistance);
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("bellota") && !isCollectingBellota)
-        {
-            isCollectingBellota = true; // Marcar que se está recogiendo una bellota
-            other.GetComponent<bellota_manager>().CollectBellota(transform); // Llama al método de recolección en el manager
-        }
-    }
-    public void ResetCollectingState() // Método para resetear el estado después de un tiempo
-    {
-        StartCoroutine(ResetCollectingCoroutine());
-    }
-    private IEnumerator ResetCollectingCoroutine()
-    {
-        yield return new WaitForSeconds(5f); // Esperar 3 segundos
-        isCollectingBellota = false; // Reiniciar el estado de recolección
-    }
-
+    
 }
 
 [System.Serializable]

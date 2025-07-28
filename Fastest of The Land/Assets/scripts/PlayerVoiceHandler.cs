@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -41,8 +42,27 @@ public class PlayerVoiceHandler : MonoBehaviour
         {
             lapAudioSource.PlayOneShot(finalLapSound);
         }
-    }
+        if (LapMusicManager.Instance != null)
+        {
+            LapMusicManager.Instance.TemporarilyLowerMusic(0.3f, 1.5f);
+        }
 
+        // Reproducimos el sonido después de un pequeño delay
+        StartCoroutine(PlayLapSoundAfterDelay(currentLap));
+    }
+    IEnumerator PlayLapSoundAfterDelay(int lap)
+    {
+        yield return new WaitForSeconds(0.4f); // le da tiempo al fade out
+
+        if (lap < RaceManager.Instance.totalLaps)
+        {
+            lapAudioSource.PlayOneShot(lap1Sound);
+        }
+        else if (lap == RaceManager.Instance.totalLaps)
+        {
+            lapAudioSource.PlayOneShot(finalLapSound);
+        }
+    }
     private void TryPlayRandomClip(AudioClip[] clips)
     {
         if (Time.time - lastVoiceTime < minIntervalBetweenVoices) return;

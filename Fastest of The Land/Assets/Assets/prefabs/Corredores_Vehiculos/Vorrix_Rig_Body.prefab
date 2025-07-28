@@ -4557,7 +4557,7 @@ MonoBehaviour:
   FadeOutDistance: 0
   DistanceFrom: {fileID: 0}
   AutoHelperOffset: 1
-  HelperOffset: {x: 0.18867509, y: 0.009534462, z: 0.025823265}
+  HelperOffset: {x: 0.18867493, y: 0.009536005, z: 0.025823021}
   GravityEffectForce: {x: 0, y: 0, z: 0}
   GravityHeavyness: 2
   _editor_Title: ' Bones Stimulator'
@@ -4905,7 +4905,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.05
+    CollisionRadius: 0.023529358
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -4925,7 +4925,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.046153847
+    CollisionRadius: 0.027873253
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -4945,7 +4945,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.042307694
+    CollisionRadius: 0.03221715
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -4965,7 +4965,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.038461536
+    CollisionRadius: 0.036561046
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -4985,7 +4985,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.034615386
+    CollisionRadius: 0.04090494
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5005,7 +5005,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.030769229
+    CollisionRadius: 0.045248833
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5025,7 +5025,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.026923075
+    CollisionRadius: 0.049592733
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5045,7 +5045,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.023076922
+    CollisionRadius: 0.053936627
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5065,7 +5065,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.019230768
+    CollisionRadius: 0.058280524
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5085,7 +5085,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.0153846145
+    CollisionRadius: 0.06262442
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5105,7 +5105,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.011538461
+    CollisionRadius: 0.066968314
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5125,7 +5125,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.0076923072
+    CollisionRadius: 0.071312204
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5145,7 +5145,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.0038461506
+    CollisionRadius: 0.07565611
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5162,8 +5162,8 @@ MonoBehaviour:
   FadeOutDistance: 0
   DistanceFrom: {fileID: 0}
   AutoHelperOffset: 1
-  HelperOffset: {x: 0.6574774, y: 0.0010705646, z: 0.023315247}
-  GravityEffectForce: {x: 0, y: 0, z: 1}
+  HelperOffset: {x: 0.6574772, y: 0.001070533, z: 0.023316834}
+  GravityEffectForce: {x: 0, y: 0, z: 0}
   GravityHeavyness: 2
   _editor_Title: ' Bones Stimulator'
   _editor_DrawSetup: 1
@@ -5171,7 +5171,7 @@ MonoBehaviour:
   _editor_DisplayedPreset: 0
   _editor_DrawGizmos: 1
   DrawGizmos: 1
-  _editor_SelCategory: 0
+  _editor_SelCategory: 3
   UpdateRate: 0
   MovementMuscles: 1
   MusclesRapidity: 0.6
@@ -5302,18 +5302,18 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
-      inSlope: -1
-      outSlope: -1
+      value: 0.29411697
+      inSlope: 0.705883
+      outSlope: 0.705883
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
-      value: 0
-      inSlope: -1
-      outSlope: -1
+      value: 1
+      inSlope: 0.705883
+      outSlope: 0.705883
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -5321,7 +5321,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  CollidersScaleMul: 0.1
+  CollidersScaleMul: 0.16
   OffsetAllColliders: {x: 0, y: 0, z: 0}
   DetailedCollision: 1
   IncludedColliders:
@@ -5417,7 +5417,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.05
+    CollisionRadius: 0.024175417
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5437,7 +5437,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.046153847
+    CollisionRadius: 0.029238848
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5457,7 +5457,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.042307694
+    CollisionRadius: 0.034302276
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5477,7 +5477,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.038461536
+    CollisionRadius: 0.039365705
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5497,7 +5497,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.034615386
+    CollisionRadius: 0.04442914
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5517,7 +5517,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.030769229
+    CollisionRadius: 0.049492564
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5537,7 +5537,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.026923075
+    CollisionRadius: 0.054555994
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5557,7 +5557,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.023076922
+    CollisionRadius: 0.059619427
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5577,7 +5577,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.019230768
+    CollisionRadius: 0.064682856
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5597,7 +5597,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.0153846145
+    CollisionRadius: 0.069746286
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5617,7 +5617,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.011538461
+    CollisionRadius: 0.074809715
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5637,7 +5637,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.0076923072
+    CollisionRadius: 0.079873145
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5657,7 +5657,7 @@ MonoBehaviour:
     srcAnimatorLocRotation: {x: 0, y: 0, z: 0, w: 0}
     srcAnimatorRotation: {x: 0, y: 0, z: 0, w: 0}
     EnableCollisions: 1
-    CollisionRadius: 0.0038461506
+    CollisionRadius: 0.084936574
     CollisionHelperVector: {x: 0, y: 0, z: 0}
     lastFinalLocPosition: {x: 0, y: 0, z: 0}
     lastFinalLocRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -5674,8 +5674,8 @@ MonoBehaviour:
   FadeOutDistance: 0
   DistanceFrom: {fileID: 0}
   AutoHelperOffset: 1
-  HelperOffset: {x: -0.65167487, y: -0.0010418221, z: -0.0812113}
-  GravityEffectForce: {x: 0, y: 0, z: 1}
+  HelperOffset: {x: -0.65167487, y: -0.0010418519, z: -0.081210956}
+  GravityEffectForce: {x: 0, y: 0, z: 0}
   GravityHeavyness: 2
   _editor_Title: ' Bones Stimulator'
   _editor_DrawSetup: 1
@@ -5683,7 +5683,7 @@ MonoBehaviour:
   _editor_DisplayedPreset: 0
   _editor_DrawGizmos: 1
   DrawGizmos: 1
-  _editor_SelCategory: 0
+  _editor_SelCategory: 3
   UpdateRate: 0
   MovementMuscles: 1
   MusclesRapidity: 0.6
@@ -5814,18 +5814,18 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
-      inSlope: -1
-      outSlope: -1
+      value: 0.26861572
+      inSlope: 0.7313843
+      outSlope: 0.7313843
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
-      value: 0
-      inSlope: -1
-      outSlope: -1
+      value: 1
+      inSlope: 0.7313843
+      outSlope: 0.7313843
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -5833,7 +5833,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  CollidersScaleMul: 0.1
+  CollidersScaleMul: 0.18
   OffsetAllColliders: {x: 0, y: 0, z: 0}
   DetailedCollision: 1
   IncludedColliders:
