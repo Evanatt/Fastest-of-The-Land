@@ -7858,7 +7858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StimulatorAmount: 0.32622123
+  StimulatorAmount: 0.15384617
   Bones:
   - transform: {fileID: 6784745639755041913}
     Evaluation: 0
@@ -7938,7 +7938,7 @@ MonoBehaviour:
   DrawGizmos: 1
   _editor_SelCategory: 0
   UpdateRate: 0
-  MovementMuscles: 0.70966816
+  MovementMuscles: 0.47945204
   MusclesRapidity: 0.56
   Damping: 0.45
   Smoothing: 1

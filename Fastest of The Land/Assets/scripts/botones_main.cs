@@ -13,6 +13,7 @@ public class botones_main : MonoBehaviour
     public AudioClip botonossound_Play_Clip;
 
     public GameObject SeleccionLandersCanvas;
+    public GameObject comingsoon_aviso;
 
     private void Start()
     {
@@ -29,6 +30,7 @@ public class botones_main : MonoBehaviour
     }
     public void OnMouseDown()
     {
+        comingsoon_aviso.SetActive(true);
         GetComponent<AudioSource>().Play();
 
     }

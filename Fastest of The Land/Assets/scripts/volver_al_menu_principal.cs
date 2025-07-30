@@ -8,7 +8,7 @@ public class volver_al_menu_principal : MonoBehaviour
     public AudioSource botonossound;
     public AudioClip botonossound_Menu_Clip;
     public AudioClip botonossound_salir;
-
+    public GameObject canvas_commig_soon;
     public GameObject SeleccionLandersCanvas;
 
     public void volveralmenu()
@@ -16,7 +16,7 @@ public class volver_al_menu_principal : MonoBehaviour
         botonossound.PlayOneShot(botonossound_salir);
         Canvas_creditos.SetActive(false);
         SeleccionLandersCanvas.SetActive(false);
-
+        canvas_commig_soon.SetActive(false);
     }
 
     public void AbrirCreditos()

@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: LuzVoiceData
   m_EditorClassIdentifier: 
   coinClips:
-  - {fileID: 8300000, guid: 211623e0bbf2a884abbc17d85f847d21, type: 3}
-  - {fileID: 8300000, guid: 211623e0bbf2a884abbc17d85f847d21, type: 3}
-  - {fileID: 8300000, guid: 211623e0bbf2a884abbc17d85f847d21, type: 3}
-  - {fileID: 8300000, guid: 211623e0bbf2a884abbc17d85f847d21, type: 3}
+  - {fileID: 8300000, guid: d495be4b527da70499bec6e83aed7101, type: 3}
+  - {fileID: 8300000, guid: 2174e11b554ae9343b508f808c7e3b16, type: 3}
+  - {fileID: 8300000, guid: 21108a177155bb14998ec467ff2ce857, type: 3}
+  - {fileID: 8300000, guid: 160324d1eb4d11245bb8f5a3b34f30d5, type: 3}
+  - {fileID: 8300000, guid: e0ceebf73e9feff4cb4a3e0312ac5cc9, type: 3}
   acornClips:
-  - {fileID: 8300000, guid: 211623e0bbf2a884abbc17d85f847d21, type: 3}
-  - {fileID: 8300000, guid: 211623e0bbf2a884abbc17d85f847d21, type: 3}
-  - {fileID: 8300000, guid: 211623e0bbf2a884abbc17d85f847d21, type: 3}
-  - {fileID: 8300000, guid: 211623e0bbf2a884abbc17d85f847d21, type: 3}
+  - {fileID: 8300000, guid: 34572186e3ec8a84da7f3fdfd76d1c11, type: 3}
+  - {fileID: 8300000, guid: 8ae94941a0d68c647b075e08bde90ca4, type: 3}
+  - {fileID: 8300000, guid: 636b8514549c8cc46b4c592277edfe7b, type: 3}
+  - {fileID: 8300000, guid: e0ceebf73e9feff4cb4a3e0312ac5cc9, type: 3}
   lapClips:
-  - {fileID: 8300000, guid: 211623e0bbf2a884abbc17d85f847d21, type: 3}
-  - {fileID: 8300000, guid: 211623e0bbf2a884abbc17d85f847d21, type: 3}
-  - {fileID: 8300000, guid: 211623e0bbf2a884abbc17d85f847d21, type: 3}
+  - {fileID: 8300000, guid: 845f334b5d2c7dc469c02e35690564d0, type: 3}
+  - {fileID: 8300000, guid: 505efa83067fb874d9732c88d8a6c888, type: 3}
+  - {fileID: 8300000, guid: f4a4f29c6cee05e4ea1f8d0a365d63ba, type: 3}
